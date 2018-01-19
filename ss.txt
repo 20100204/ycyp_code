@@ -1,0 +1,13 @@
+ <VirtualHost *:80>
+ Header set Access-Control-Allow-Origin "*"   
+ ServerName  ycyp.yii
+ DocumentRoot "E:\www\ycyp\ycyp\yii\basic\web"
+ 
+</VirtualHost>
+
+
+ <VirtualHost *:80> 
+ Header set Access-Control-Allow-Origin "*"   
+ ServerName  ycyp.test
+ DocumentRoot "E:\www\ycyp\ycyp\iview-admin-dev\dist"
+</VirtualHost>
